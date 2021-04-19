@@ -10,7 +10,8 @@ public static void main(String[] args) {
 		Arrays.sort(num);
 		for (int i = 0; i < num.length -1; i++) {
 			if(num[i]+1 !=num[i+1])
-				System.out.println("the missing no is:"+num[i]);
+				System.out.println(num[i]+1);
+			break;
 		}
 		
 }
